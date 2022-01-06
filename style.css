@@ -1,0 +1,134 @@
+/* body{
+    background: #E5E5E5;
+} */
+
+h1 {
+    font-size: 65px;
+    font-family: "Yeseva One";
+}
+
+#mission {
+    border-left: 4px solid;
+    border-color: #59e6ff;
+    border-image-slice: 1;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+}
+
+.flexible-container {
+    display: flex;
+    height: 600px;
+    margin-bottom: 150px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    text-align: justify;
+}
+
+.half-width img {
+    width: 70%;
+    margin-top: 5px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    background-color: #047260;
+    padding: 20px 40px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-missions {
+    text-align: center;
+}
+
+#mission-2 {
+    background: #0a92a11a;
+    border-radius: 25px;
+    text-align: justify;
+}
+
+#vission {
+    background: #90cdd8;
+    border-radius: 25px;
+    text-align: justify;
+}
+
+#goals {
+    background: #FFF4D6;
+    border-radius: 25px;
+    text-align: justify;
+}
+
+.develop-page {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%;
+}
+
+.develop-page img {
+    width: 60%;
+}
+
+.projects-page {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+    padding-bottom: 250px;
+}
+
+span {
+    color: #0fc067;
+}
+
+.footer-page {
+    background-color: black;
+    margin: 0%;
+    text-align: center;
+    color: white;
+    height: 220px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* cotact form style*/
+
+.cotact-form {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.cotact-form input,
+textarea {
+    width: 80%;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(3, 3, 78);
+}
+
+.cotact-form .link-button {
+    width: 40%;
+    font-size: 20px;
+}
